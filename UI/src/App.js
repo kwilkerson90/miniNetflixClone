@@ -2,6 +2,7 @@ import SignIn from './components/SignIn';
 import NavBar from './components/Navbar';
 import HeroSection from './Hero';
 import './App.css';
+import Carousel from './Carousel';
 
 function App() {
   
@@ -10,6 +11,7 @@ function App() {
       <SignIn />
       <NavBar/>
       <HeroSection />
+      <Carousel />
     </div>
   );
 }
